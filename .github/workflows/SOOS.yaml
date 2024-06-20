@@ -28,7 +28,7 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           # Optional parameters for further customization
-          directories_to_exclude: 'C:\Users\KaranKumar\Desktop\Juiceshop file\juice'  # Adjust as needed
-          files_to_exclude: 'C:\Users\KaranKumar\Desktop\Juiceshop file\juice'        # Adjust as needed
+          # directories_to_exclude: 'C:\Users\KaranKumar\Desktop\Juiceshop file\juice'  # Adjust as needed
+          # files_to_exclude: 'C:\Users\KaranKumar\Desktop\Juiceshop file\juice'        # Adjust as needed
           log_level: 'debug'                         # Set to 'debug' for detailed logs          # List the package managers used in your project
           verbose: true
